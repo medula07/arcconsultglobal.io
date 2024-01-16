@@ -121,6 +121,12 @@ img {
       font-size: 50px;
       text-shadow: 4px 4px 5px black;
     }
+    @media only screen and (max-width:768px) {
+      .brand {
+        max-width: 100px;
+        font-size: 20px;
+      }
+    }
 
   
 .mt-15 {
