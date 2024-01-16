@@ -121,7 +121,7 @@ img {
       font-size: 50px;
       text-shadow: 4px 4px 5px black;
     }
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width:398px) {
       .brand {
         max-width: 50px;
         max-inline-size: 10px;
