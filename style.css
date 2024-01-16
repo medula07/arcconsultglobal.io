@@ -101,12 +101,13 @@ img {
   .logo-container {
     left: 10px;
     position:absolute;
-    top: 10px;
+    top: 20px;
      z-index: 10;
     }
     @media only screen and (max-width:398px) {
       .logo-container {
-        max-width: 50px;
+        max-width: 20px;
+        max-height: 20px;
       }
     }
 
@@ -116,21 +117,20 @@ img {
     border: 1px solid green;
     display: inline-block;
     padding: 5px, 5px, 5px 5px;
-    width: 60px; 
-    height: 60px;
+    width: 45px; 
+    height: 45px;
     float: left;
     }
 
     .brand {
-      margin-left: 40px;
+      margin-left: 30px;
       color: green;
       font-size: 50px;
       text-shadow: 4px 4px 5px black;
     }
     @media only screen and (max-width:398px) {
       .brand {
-        max-width: 50px;
-        max-inline-size: 10px;
+        max-width: 100px;
       }
     }
 
