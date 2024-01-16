@@ -124,7 +124,7 @@ img {
     @media only screen and (max-width:768px) {
       .brand {
         max-width: 100px;
-        font-size: 20px;
+        max-inline-size: 10px;
       }
     }
 
